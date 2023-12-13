@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+div{
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans","Arial Narrow";
+}
+
+.header{
+  background-image: linear-gradient(to right, rgb(195, 195, 195) , rgba(29, 132, 197, 0.633)); 
+  text-align: center;
+  align-items: flex-start;
+  display:flex;
+  font-family: 'Lobster', cursive;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  box-shadow: 1px 1px greenyellow;
+}
+
+Footer{
+  width : 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.CreateN{
+  text-align: center;
+  display: flex;
+}
+
+
+.note{
+  color: rgb(23, 23, 23);
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px -5px black;
+  background-image: linear-gradient(to right,rgb(177, 207, 193), rgb(227, 255, 184)  );
+  margin: 0;
+  text-decoration: dotted;
+  padding: 10px;
+  width: 250px;
+  height: 12rem;
+  margin: 20px;
+  float: left;
+
+}
+
+img{
+  color:rgb(230, 224, 224);
+}
+
+.header .h1{
+ 
+  text-align: center;
+
+}
+
+.CreateN{
+  align-items: center;
+  align-content: flex-end;
+  display: flex;
+  margin: auto;
+  padding: 2px;
+  width: 250px;
+  height: 11rem;
+  box-shadow:0px 5px 15px -5px black;
+  background-image: linear-gradient(to right, rgb(227, 255, 184) , rgb(177, 207, 193));
+  border-radius: 15px;
+}
+
+.btn{
+  color: beige;  
+  border-radius: 50%;
+  margin: 5%;
+  align-items: flex-end;
+  align-self: flex-end;
+  align-content: flex-end;
+  font-weight: 200;
+}
+.btn:hover{
+  background-color: red;
+}
+
+button{
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  margin: auto;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+
+button:hover{
+  background-color: rgb(13, 255, 0);
+}
+
+.txt{
+  text-align: center;
+}
+
+input{
+  width: 100%;
+  line-height : 30px;
+  background : transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+textarea{
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+}
